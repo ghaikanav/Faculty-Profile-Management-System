@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action = "register.php" method = "get">
+		Faculty Id: <input required type="text" name="fid" placeholder="eg.(2013ME09)"> <br>
+		Name: <input required type="text" name="name" placeholder="name"> <br>
+		Department: <!-- <input required type="text" name="dept"> -->
+		<select name="dept">
+	  <option value="CS">Computer Science and Engineering</option>
+	  <option value="CB">Chemical and Biochemical Engineering</option>
+	  <option value="CE">Civil Engineering</option>
+	  <option value="ME">Mechanical Engineering</option>
+	  <option value="EE">Electrical Engineering</option>
+		</select><br>
+		Date of joining: <input required type="text" name="doj" placeholder="yyyy-mm-dd"> <br>
+
+		<!-- Username: <input type="text" name="username"> <br> -->
+		Password: <input required type="password" name="password" placeholder="****"> <br>
+		Confirm Password: <input required type="password" name="cpsw" placeholder="****"> <br>
+		<input type="submit" name="submit">
+</form>
+</body>
+</html>
