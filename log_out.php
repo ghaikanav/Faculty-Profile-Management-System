@@ -1,4 +1,4 @@
 <?php
-include('facultydata.html');
+include('home.html');
 ?>
 

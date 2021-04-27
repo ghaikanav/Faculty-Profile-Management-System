@@ -1,0 +1,125 @@
+.id{
+    text-align: center;
+    margin-top: 5%;
+    border: 2px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(160, 204, 229, 0.952);
+    border-radius: 10px; 
+}
+
+.form{
+    
+        max-width: 50%;
+        margin: auto;
+        margin-top:5%;
+        padding: 25px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 2px 2px 13px;
+        border-radius: 10px;  
+       
+}
+
+.req{
+    text-align: center;
+    margin-top: 5%;
+    border: 2px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(160, 204, 229, 0.952);
+    border-radius: 10px;  
+}
+
+.needs-validation{
+        max-width: 50%;
+        margin: auto;
+        margin-top:5%;
+        padding: 25px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 2px 2px 13px;
+        border-radius: 10px;  
+}
+
+.pea{
+    text-align: center;
+    margin-top: 5%;
+    border: 2px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(160, 204, 229, 0.952);
+    border-radius: 10px;
+}
+
+.ser{
+        max-width: 50%;
+        margin: auto;
+        margin-top:5%;
+        padding: 25px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 2px 2px 13px;
+        border-radius: 10px;    
+}
+
+.pic{
+    width: 10%;
+    height: 10%;
+    float: left;
+    margin-left: 70px;
+}
+
+.inf{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.sin{
+     
+
+   margin-top: 5%;
+   border:1px solid;
+   margin-left: 30%;
+   margin-right:37%;
+   padding: 10px;
+   box-shadow: 2px 2px 23px;
+   border-radius: 20px; 
+
+           
+}
+
+.brok{
+   margin-left:5%;
+}
+
+.room{
+    margin-top: 5%;
+   border:1px solid;
+   margin-left: 30%;
+   margin-right:35%;
+   padding: 10px;
+   box-shadow: 2px 2px 23px;
+   border-radius: 20px; 
+}
+.mng{
+     margin-top: 5%;
+   border:1px solid;
+   margin-left: 40%;
+   margin-right:52%;
+   padding: 10px;
+   box-shadow: 2px 2px 23px;
+   border-radius: 20px; 
+}
+
+.flr{
+     margin-top: 5%;
+   border:1px solid;
+   margin-left: 37%;
+   margin-right:50%;
+   padding: 10px;
+   box-shadow: 2px 2px 23px;
+   border-radius: 20px; 
+}
+
+

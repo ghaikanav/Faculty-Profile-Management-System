@@ -1,3 +1,28 @@
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Home page</title>
+</head>
+
+<body>
+<img class="pic" id="logo" src="IITPatna_Logo.jpg">
+<h1 class="pea">INDIAN INSTITUTE OF TECHNOLOGY PATNA</h1>
+<p class="ser"><button type="button" class="btn btn-secondary">Home</button>
+<a href="insert_c.html"><button type="button" class="btn btn-secondary">Add conference</button></a>
+<a href="insert_j.html"><button type="button" class="btn btn-secondary">Add journal</button></a>
+<a href="insert_p.html"><button type="button" class="btn btn-secondary">Add project<button></a>
+<a href="view.html"><button type="button" class="btn btn-secondary">Show Faculty Work</button></a>
+<a href="home.html"><button type="button" class="btn btn-secondary">Logout</button></a>
+</p>
+</body>
+</html>
+
 <?php
 
 $a_no = $_GET["username"];
@@ -40,10 +65,10 @@ if($count==1)
 
  {
 
-   printf("Welcome %s!",$row1[0]);
+   printf("Welcome %s!\n",$row1[0]);
    echo "<br>";
    //<a href="insert.html">Add conference</a><br>
-   include('insert.html');
+   //include('insert.html');
 
  }
  $result->free();
