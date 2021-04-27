@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html>
-<form  id="form2" action = "insert_c.php" method = "get" >
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Insert Conference</title>
+</head>
+
+<body>
+<img class="pic" id="logo" src="IITPatna_Logo.jpg">
+<h1 class="pea">INDIAN INSTITUTE OF TECHNOLOGY PATNA</h1>
+<p class="ser"><a href="home.html"><button type="button" class="btn btn-secondary">Home</button></a>
+<a href="insert_c.html"><button type="button" class="btn btn-secondary">Add conference</button></a>
+<a href="insert_j.html"><button type="button" class="btn btn-secondary">Add journal</button></a>
+<a href="insert_p.html"><button type="button" class="btn btn-secondary">Add project<button></a>
+<a href="view.html"><button type="button" class="btn btn-secondary">Show Faculty Work</button></a>
+<a href="home.html"><button type="button" class="btn btn-secondary">Logout</button></a>
+</p>
+
+<form  id="form2" class="form" action = "insert_c.php" method = "get" >
       
       <label for="cid"><b>Conference Paper ID</b></label>
       <input required type="text" name="cid"><br>
@@ -27,5 +49,11 @@
       <input type="submit" name="submit">
     
 </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+ 
 </body>
 </html>

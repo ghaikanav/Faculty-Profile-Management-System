@@ -1,4 +1,6 @@
 <?php
+include('dashboard.html');
+
 
 $a_no = $_GET["pid"];
 
@@ -31,7 +33,7 @@ $sql = "insert into project values('$a_no','$pn','$v','$b','$pi','$copi')";
 if ($con->query($sql) === TRUE) {
     echo "New record created successfully";
      echo "<br>";
-    include('insert.html');
+    include('dashboard.html');
 } else {
     echo "Error: " . $sql . "<br>" . $con->error;
 

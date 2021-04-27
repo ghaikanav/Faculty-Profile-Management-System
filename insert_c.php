@@ -1,4 +1,5 @@
 <?php
+include('dashboard.html');
 
 $c_id = $_GET["cid"];
 
@@ -35,7 +36,7 @@ $sql = "insert into conference values('$c_id','$tp','$a_no','$ath','$pi','$pf','
 if ($con->query($sql) === TRUE) {
     echo "New record created successfully";
     echo "<br>";
-    include('insert.html');
+    include('dashboard.html');
 } else {
     echo "Error: " . $sql . "<br>" . $con->error;
     echo "<br>";

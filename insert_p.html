@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html>
-           <form id="form3" action = "insert_p.php" method = "get">
-      
-            <label for="pid"><b>Project Id</b></label>
-            <input requiredtype="text" name="pid"><br>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            <label for="pname"><b>Project Title</b></label>
-            <input required type="text"name="pname"><br>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Insert Project</title>
+</head>
 
-            <label for="spons_agency"><b>Sponsorship Agency</b></label>
-            <input required type="text"name="spons_agency"><br>
+<body>
+<img class="pic" id="logo" src="IITPatna_Logo.jpg">
+<h1 class="pea">INDIAN INSTITUTE OF TECHNOLOGY PATNA</h1>
+<p class="ser"><a href="home.html"><button type="button" class="btn btn-secondary">Home</button></a>
+<a href="insert_c.html"><button type="button" class="btn btn-secondary">Add conference</button></a>
+<a href="insert_j.html"><button type="button" class="btn btn-secondary">Add journal</button></a>
+<a href="insert_p.html"><button type="button" class="btn btn-secondary">Add project<button></a>
+<a href="view.html"><button type="button" class="btn btn-secondary">Show Faculty Work</button></a>
+<a href="home.html"><button type="button" class="btn btn-secondary">Logout</button></a>
+</p>
+   <form id="form3" class="form" action = "insert_p.php" method = "get">
 
-            <label for="budget"><b>Budget</b></label>
-            <input required type="text"name="budget"><br>
+	<label for="pid"><b>Project Id</b></label>
+	<input requiredtype="text" name="pid"><br>
 
-            <label for="pi"><b>PI</b></label>
-            <input required type="text" name="pi"><br>
+	<label for="pname"><b>Project Title</b></label>
+	<input required type="text"name="pname"><br>
 
-            <label for="copi"><b>Co-PI</b></label>
-            <input required type="text" name="copi"><br>
+	<label for="spons_agency"><b>Sponsorship Agency</b></label>
+	<input required type="text"name="spons_agency"><br>
 
-            <input type="submit" name="submit">
-          
-          </form>      
+	<label for="budget"><b>Budget</b></label>
+	<input required type="text"name="budget"><br>
+
+	<label for="pi"><b>PI</b></label>
+	<input required type="text" name="pi"><br>
+
+	<label for="copi"><b>Co-PI</b></label>
+	<input required type="text" name="copi"><br>
+
+	<input type="submit" name="submit">
+  
+  </form>    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+ 		  
 
 </body>
 </html>

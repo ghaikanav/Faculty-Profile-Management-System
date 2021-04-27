@@ -1,17 +1,17 @@
 <?php
 
 
-$f_id = $_GET["fid"];
+$f_id = $_REQUEST["fid"];
 
-$name = $_GET["name"];
+$name = $_REQUEST["name"];
 
-$dept = $_GET["dept"];
+$dept = $_REQUEST["dept"];
 
-$doj = $_GET["doj"];
+$doj = $_REQUEST["doj"];
 
-$psw = $_GET["password"];
+$psw = $_REQUEST["password"];
 
-$cpsw = $_GET["cpsw"];
+$cpsw = $_REQUEST["cpsw"];
  
 
 $con = new mysqli("localhost","root","","project_dbms");
@@ -52,7 +52,7 @@ $sql = "insert into login values('$f_id','$psw')";
 if ($con->query($sql) === TRUE) {
     echo "New account created successfully";
     echo "<br>";
-    include('insert.html');
+    include('dashboard.html');
 } else {
     echo "Error: " . $sql . "<br>" . $con->error;
 }

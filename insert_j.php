@@ -1,5 +1,7 @@
 <?php
 
+include('dashboard.html');
+
 $j_id = $_GET["jid"];
 
 $tp = $_GET["tp"];
@@ -41,7 +43,10 @@ if ($con->query($sql) === TRUE) {
      echo "<br>";
     include('insert.html');
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error: " . $sql . "<br>" . $con->error;
+    echo "<br>";
+    echo "TRY AGAIN!!"; echo "<br>";
+    include('insert_c.html');
 }
 
 $con->close();
